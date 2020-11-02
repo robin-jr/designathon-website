@@ -3,8 +3,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-/* Basic */
-
 a {
   text-decoration: none;
 }
@@ -24,15 +22,13 @@ p {
   line-height: 22px;
 }
 
-/*custom*/
-
 .section-heading {
   text-align: center;
   margin-bottom: 40px;
 }
 
 .section-heading h2 {
-  margin-top: 80px;
+  margin-top: 40px;
   position: relative;
   font-size: 18px;
   font-weight: 500;
@@ -42,8 +38,6 @@ p {
   padding: 15px 20px;
   border: 2px solid rgba(250, 250, 250, 0.1);
 }
-
-/* Buttons */
 
 .main-button a {
   background-color: rgba(17, 100, 102);
@@ -112,9 +106,6 @@ nav[role="navigation"] li.active a {
     color: #ffcb9a;
   }
 }
-
-/* Header */
-
 .main-header {
   background-color: rgba(17, 100, 102, 0.9);
   height: 80px;
@@ -198,8 +189,6 @@ nav[role="navigation"] li.active a {
   }
 }
 
-/* Slider */
-
 .main-banner {
   position: relative;
   max-height: 100%;
@@ -213,6 +202,7 @@ nav[role="navigation"] li.active a {
   max-width: 100%;
   max-height: 100vh;
   object-fit: cover;
+  background-color: #353535;
   z-index: -1;
 }
 
@@ -269,31 +259,9 @@ nav[role="navigation"] li.active a {
   }
 }
 
-/* Why Choosing Us */
-
 section.why-us {
   background: rgba(17, 100, 102);
   padding-bottom: 20px;
-}
-
-#features img {
-  height: 360px;
-  padding: 10px;
-}
-
-#features h4 {
-  margin-top: 10px;
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: #fff;
-  margin-bottom: 30px;
-}
-
-#features p {
-  color: #fff;
-  font-size: 15px;
-  line-height: 28px;
 }
 
 @media screen and (max-width: 767px) {
@@ -348,60 +316,9 @@ section.whatWeDo .item .down-content p {
 
 /* Video */
 
-#review {
-  background: #116466;
-  padding: 30px 0px;
-}
-
-#review span {
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: 0.5px;
-}
-
-#review h4 {
-  margin-top: 20px;
-  font-size: 30px;
-  color: #fff;
-  font-weight: 800;
-  letter-spacing: 0.5px;
-  line-height: 40px;
-  margin-bottom: 20px;
-}
-#review h4 em {
-  font-style: normal;
-  color: #f5a425;
-}
-
-#review p {
-  color: #fff;
-}
-
-#review .follow-button a {
-  margin-top: 30px;
-  background-color: #fff;
-  color: rgba(17, 100, 102);
-  font-size: 13px;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-  font-weight: 700;
-  padding: 12px 20px;
-  display: inline-block;
-  outline: none;
-}
-
-@media screen and (max-width: 767px) {
-  #review {
-    margin-bottom: 45px;
-  }
-}
-
-/* Contact */
-
 section.contact {
   background-color: #116466;
-  padding-bottom: 120px;
+  padding-bottom: 60px;
 }
 
 section.contact form {
@@ -476,8 +393,47 @@ section.contact form button {
   box-shadow: none;
   border: none;
 }
+#follow {
+  background: #116466;
+  padding: 30px 0px;
+  padding-bottom: 60px;
+  margin-bottom: 2px;
+}
 
-/* Footer */
+#follow h4 {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  line-height: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#follow h4 em {
+  font-style: normal;
+  color: #ffcb94;
+}
+
+#follow p {
+  color: #fff;
+  text-align: center;
+}
+
+#follow .follow-button a {
+  margin-top: 30px;
+  background-color: #fff;
+  position: relative;
+  color: rgba(17, 100, 102);
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  padding: 12px 20px;
+  left: 50%;
+  display: inline-block;
+  outline: none;
+  transform: translate(-50%);
+}
 
 footer {
   background-color: rgba(17, 100, 102);

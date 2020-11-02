@@ -1,4 +1,4 @@
-(function($) {
+
 	$(document).ready(function() {
 	  $('body').addClass('js');
 	  var $menu = $('#menu'),
@@ -12,7 +12,6 @@
 	$('.owl-carousel').owlCarousel({
 	    loop:true,
 	    margin:30,
-	    nav:true,
 	    autoplay:true,
 		autoplayTimeout:5000,
 		autoplayHoverPause:true,
@@ -35,7 +34,9 @@
 	    }
 	})
 
+	
+
 
 	
-})(jQuery);
+
 
